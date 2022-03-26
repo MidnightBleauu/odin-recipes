@@ -1,0 +1,47 @@
+.overlay{
+    position: relative;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.overlay .header {
+    position: absolute;
+    z-index: 1;     
+    top: 25%; 
+    font-family: Arial,sans-serif;
+    color: #000; 
+}
+
+.header{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px; 
+    font-size: small;
+}
+
+img {
+    width: auto; 
+    height: auto; 
+    max-width: 100%;
+}
+
+ul {
+    display: flex; 
+    flex-direction: column;
+    list-style-type: none;
+    padding: 10px; 
+    gap: 8px; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px; 
+}
+
+a {
+    text-decoration: none; 
+    background-color: #CDDEEE; 
+    border:1px solid #660000;
+    border-radius: 3px;
+    color: #000;
+    margin-right: 10px;
+}
